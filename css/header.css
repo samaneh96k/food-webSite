@@ -1,0 +1,47 @@
+.header{
+    background-color:#000000;
+    grid-column:1/-1;
+    background-image: linear-gradient(to bottom,#4d4c4c4f,#000000),url(../pic/foodiesfeed.com_messy-pizza-on-a-black-table.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: repeat(3,min-content);
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    text-align: center;
+   
+    
+}
+.header1{
+    font-size: 30px;
+    color: white;
+
+}
+.header2{
+    color: white;
+}
+.headertext{
+    color: orange;
+}
+.headerbtn{
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    border: 3px solid orange;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s;
+    justify-self: center;
+
+}
+.headerbtn:hover{
+    color: orange;
+    background-color: white;
+}
+@media screen and (max-width:500px) {
+ .header{
+    background-position-x: 10%;
+ }
+}
